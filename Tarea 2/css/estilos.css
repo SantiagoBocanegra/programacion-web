@@ -1,0 +1,118 @@
+*{margin: 2px}
+.form {
+	background: rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.body {
+	background: #BDBDBD;
+}
+.header {
+	background: #848484;
+}
+.btnE {
+	width: 100%;
+	font-family: roboto;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	color: black;
+	background: red;
+	margin-top: 13px;
+	padding: 8px 0; 
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.btnE:hover {
+	background: #610B0B;
+	color: white;
+}
+
+.titulo {
+	font-size: 50px;
+}
+
+.controlador-tabla {
+	background: rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding:  5px 35px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.tabla {
+	background:  #5882FA;
+	margin: auto;
+	width: 90%;
+	margin-right: 20px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-family: roboto;
+}
+
+.tHead {
+
+	border: none;
+	background: #08088A;
+	font-size: 20px;
+	font-family: roboto;
+}
+
+.form .form-label {
+  
+	color: black;
+	font-size: 20px;
+	font-family: roboto;
+}
+
+.form .form-input {
+	border: none;
+	outline: none;
+	border-bottom: 2px  solid black;
+	width: 60%;
+	padding: 5px;
+	margin-bottom: 2px;
+	border-radius: 10px;
+	font-size: 17px;
+	font-family: roboto; 
+}
+
+.form .btn-submit {
+	width: 50%;
+	font-family: roboto;
+	font-size: 25px;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	color: black;
+	background: #0101DF;
+	margin-top: 13px;
+	padding: 8px 0;
+	margin-left: 250px; 
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.form .form-select {
+	font-size: 17px;
+	font-family: roboto;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	width: 60%;
+	padding: 5px;
+}
+
+.form .btn-submit:hover {
+	background: #08088A;
+}

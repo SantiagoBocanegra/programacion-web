@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="js/procesos.js"></script> 
+	<title>Movimientos Cliente</title>
+</head>
+<body class="body">
+	<header class="header">
+		<h1 class="titulo">Movimientos Cliente</h1>
+	</header>
+	<hr width="100%">
+	<section>
+		<form class="form">
+			<label for="nombreM" class="form-label">Nombre Movimiento</label>
+			<input type="text" id="nombreMovimiento" class="form-input" placeholder="Ingrese Nombre"> <br>
+
+			<label for="tipoMovimiento" class="form-label">Tipo Movimiento</label>
+			<select class="form-select" id="tipoMovimiento">
+				<option value="opcion1">opcion 1</option>
+				<option value="opcion2">opcion 2</option>
+			</select> <br>
+
+			<label for="valorMovimiento" class="form-label">Valor Movimiento</label>
+			<input type="number" class="form-input" id="valorMovimiento" placeholder="$"> <br>
+
+			<input type="button" type="submit" id="btnCrear" class="btn-submit" value="Crear Movimiento">
+		</form>
+		<div class="controlador-tabla">
+			<table class="tabla" id="tablaMovimientoCliente">
+				<thead class="tHead">
+					<tr>
+						<th>Nombre Movimiento</th>
+						<th>Tipo Movimiento</th>
+						<th>Valor Moviento</th>
+						<th>Fecha De Registro</th>
+						<th>Accion</th>
+					</tr>
+				</thead>
+				<tbody id="contenidoTabla">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<footer>
+		
+	</footer>
+</body>
+</html>
